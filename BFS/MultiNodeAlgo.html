@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Algorithm Visualsier</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <script src="scriptMod.js"></script>
+    </head>
+
+    <body>
+        <h3>Algorithm Visualiser</h3>
+        <div id="board"></div>
+        <br/>
+        <button id="SetDest" onclick="setDestTiles()" style="width: 200px; height: 30px; background-color: #afb0a5; font-size: x-large;" >Set Destination</button>
+        <br>
+        <br>
+        <button id="submit" onclick="submit()" style="width: 200px; height: 30px; background-color: #afb0a5; font-size: x-large;" >Submit</button>
+        
+        <br>
+        <ul class="legend">
+            <li><span class="source"></span> Source</li>
+            <li><span class="dest"></span> Destination</li>
+            <li><span class="obstacles"></span> Obstacles</li>
+            <li><span class="searchpath"></span> Finding Path</li>
+            <li><span class="path"></span> Shortest Path</li>
+        </ul>
+    </body>
+</html>
