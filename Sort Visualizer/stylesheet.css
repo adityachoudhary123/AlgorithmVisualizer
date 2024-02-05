@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.array-bar {
+    display: inline-block;
+    background-color: #3498db; /* Normal state (blue) */
+    margin: 0 5px;
+    padding: 10px 0;
+    color: #fff;
+    text-align: center;
+    
+    transition: background-color 0.2s;
+    width: 50px;
+}
+
+.array-bar.comparing {
+    background-color: #2ecc71; /* Comparing state (green) */
+}
+
+.array-bar.swapping {
+    background-color: #e74c3c; /* Swapping state (red) */
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
